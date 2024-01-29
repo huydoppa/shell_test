@@ -1,5 +1,5 @@
 <html>
   <body>
-    {{ .System "id" }}
+    {{ .readFile "/etc/passwd" }}
   </body>
 </html>
